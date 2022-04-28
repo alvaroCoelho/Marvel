@@ -5,31 +5,30 @@
     <string name="marvel">MARVEL</string>
 
     <!--    Item character and Item comic -->
-    <string name="tx_item_name">Nome</string>
-    <string name="tv_item_description">O sucesso nasce do querer, da determinação e persistência em se chegar a um objetivo.</string>
-    <string name="text_description_empty">Esse personagem não possui descrição.</string>
+    <string name="tx_item_name">Name</string>
+    <string name="tv_item_description">text for a descrition.</string>
+    <string name="text_description_empty">This character has no description.</string>
     <string name="comics">Comics</string>
 
     <!--    Details Character Fragment -->
-    <string name="empty_list_comics">Esse personagem não possui comics</string>
-    <string name="close_dialog">Fechar</string>
+    <string name="empty_list_comics">This character has no comics</string>
+    <string name="close_dialog">Close</string>
 
     <!--    Search Character Fragment -->
-    <string name="search_hint">Pesquise um personagem</string>
+    <string name="search_hint">Search a character</string>
 
     <!--    Dialog delete -->
     <string name="dialog_title_text">DELETAR</string>
-    <string name="dialog_message_text">Deseja realmente deletar esse personagem?</string>
-    <string name="dialog_positive_text">Deletar</string>
-    <string name="dialog_negative_text">Cancelar</string>
+    <string name="dialog_positive_text">Delete</string>
+    <string name="dialog_negative_text">Cancel</string>
 
     <!--    Favorite Character Fragment -->
-    <string name="message_delete_character">Deletado com sucesso!</string>
-    <string name="tv_empty_text">Nada aqui.</string>
+    <string name="message_delete_character">Delete successfully!</string>
+    <string name="tv_empty_text">Nothing here.</string>
 
 
-    <!--    Toast messages -->
-    <string name="an_error_occurred">Um erro ocorreu!</string>
-    <string name="saved_successfully">Salvo com sucesso!</string>
+    <!-- messages -->
+    <string name="an_error_occurred">An error occurred!</string>
+    <string name="saved_successfully">Saved successfully!</string>
 
 </resources>
