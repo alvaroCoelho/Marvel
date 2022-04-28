@@ -43,7 +43,7 @@ class DetailsCharacterFragment :
         collectObserver()
     }
 
-    private fun setupRecyclerView() = with(binding){
+    private fun setupRecyclerView() = with(binding) {
         rvComics.apply {
             adapter = comicAdapter
             layoutManager = LinearLayoutManager(context)
@@ -68,13 +68,11 @@ class DetailsCharacterFragment :
                     binding.progressBarDetail.hide()
                     result.message?.let { message ->
                         Timber.tag("detailsCharacter").e("Error -> $message")
-                        toast(getString(R.string.an_error_occurred)+" "+message)
+                        toast(getString(R.string.an_error_occurred) + " " + message)
                     }
                 }
                 is ResourceState.Loading -> {
                     binding.progressBarDetail.show()
-                }
-                else -> {
                 }
 
             }
