@@ -34,7 +34,7 @@ class SearchCharacterViewModel @Inject constructor(
             _searchCharacter.value = handleResponse(response)
         } catch (t: Throwable) {
             when (t) {
-                is IOException -> _searchCharacter.value = ResourceState.Error("Erro na rede")
+                is IOException -> _searchCharacter.value = ResourceState.Error(t.message.toString())
             }
         }
     }

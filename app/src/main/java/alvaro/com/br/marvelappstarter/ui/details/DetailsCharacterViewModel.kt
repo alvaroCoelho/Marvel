@@ -32,8 +32,8 @@ class DetailsCharacterViewModel @Inject constructor(
             _details.value = handleResponse(response)
         }catch (t: Throwable){
             when (t){
-                is IOException -> _details.value = ResourceState.Error("Erro de rede")
-                else -> _details.value = ResourceState.Error("Erro de conversão")
+                is IOException -> _details.value = ResourceState.Error(t.message.toString())
+                else -> _details.value = ResourceState.Error(t.message.toString())
             }
         }
     }
