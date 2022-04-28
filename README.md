@@ -26,3 +26,7 @@ Navigation Components - For page navigation, this framework facilitates navigati
 Glide - Easy-to-use framework for rendering images coming from a URL
 
 Timber - For error control and visualization via log
+
+the app apk is attached here!
+[marvelApp.zip](https://github.com/alvaroCoelho/Marvel/files/8587154/marvelApp.zip)
+
